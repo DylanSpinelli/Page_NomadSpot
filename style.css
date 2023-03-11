@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+.wrapper{
+    max-width: 1055px;
+    margin: 0 auto;
+}
+body{
+
+    background-color: white;
+}
+header{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    justify-content: space-between;
+
+
+}
+header .main-nav{
+    padding-left: 20px;
+    display: flex;
+    gap: 30px;
+    margin-right: 280px;
+}
+.main-nav a{
+    text-decoration: none;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+}
+header .account{
+    display: flex;
+    gap: 60px;
+    /* background-color: blue; */
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+.account a{
+    text-decoration: none;
+
+}
+header .account .sign-up{
+    border: solid rgba(30, 180, 180, 1);
+    padding:10px 50px 10px 50px;
+    border-radius: 25px;
+    color:rgba(30, 180, 180, 1) ;
+}
+body main .intro{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+body main .intro-left h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+    line-height: 70px;
+    text-align: left;
+    width: 555px;
+}
+body main .intro-left p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: left;
+
+
+}
+
+body main .intro-left a{
+    display: inline-block;
+    text-align: center;
+    background: rgba(30, 180, 180, 1);
+    padding: 20px 80px;
+    margin-top: 5%;
+    border : solid rgba(30, 180, 180, 1);
+    border-radius: 15px;
+    margin-right: 200px;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0px 10px 20px rgba(56, 245, 222, 0.35); 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.contener{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    border:solid 1px rgba(0, 0, 0, 1);
+    width: 1055px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    
+}
+.contener div{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contener div+div{
+    border-left: solid 2px rgba(238, 239, 242, 1);
+    z-index: 2;
+    height: 60%;
+
+}
+.contener p{
+    /* width: 220px; */
+}
+.contener img{
+    padding-right: 10px;
+}
+.categorie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categorie img{
+    width: 55px;
+    height: 55px;
+}
+.categorie p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(79, 86, 101, 1);
+    margin-top: 5px;
+}
+.categorie p b{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-weight: bold;
+    line-height: 30px;
+    width: 220px;
+    height: 30px;
+    color: rgba(11, 19, 42, 1);
+
+}
+.intro2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1055px;
+}
+.intro2 img{
+    margin-bottom: 78.28px;
+}
+.intro2 h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    width: 384px;
+    color: rgba(11, 19, 42, 1);
+    
+}
+.intro2 p{
+    margin-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    width: 428px;
+}
+.intro2 li{
+    margin-bottom: 15px;
+    height: 30px;
+}
+.intro2 li img{
+    margin: 0 auto;
+    margin-right: 10.08px;
+}
+
+.intro2 li:before{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(79, 86, 101, 1);
+}
+.page2{
+    text-align: center;
+}
+.page2 h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.page2 p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    width: 555px;
+    text-align: center;
+    display: inline-block;
+
+}
+.plan{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 100px;
+
+}
+.free_plan{
+    width: 22%;
+    height: 560px ; 
+    border: 2px rgba(221, 221, 221, 1) solid;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.standard_plan{
+    width: 22%;
+    height: 560px;
+    border: 2px rgba(221, 221, 221, 1) solid;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.premium_plan{
+    width: 22%;
+    height: 560px;
+    border: 2px  solid rgba(30, 180, 180, 1);
+    border-radius: 15px; 
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.free_plan ul{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.standard_plan ul{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 65px;
+}
+.premium_plan ul{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.plan h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(11, 19, 42, 1);
+    margin-bottom: 30px;
+}
+.plan li{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400 ;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(79, 86, 101, 1);
+    margin-left: 20.17px;
+}
+.plan p{
+    text-align:start; 
+    /* padding : 0px 69.73px 0px 69.73px; */
+}
+.page2{
+    background: rgba(248, 248, 248, 1);
+    max-width: 1055px;
+    margin: 0 auto;
+    
+}
+.page2 h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500 ;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+.page2 b{
+    font-weight: bold;
+}
+.plan .select{
+    border: solid rgba(30, 180, 180, 1);
+    padding:10px 50px 10px 50px;
+    border-radius: 25px;
+    color:rgba(30, 180, 180, 1) ;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700 ;
+    font-size: 16px;
+    line-height: 18.96px;
+    text-decoration: none;
+
+}
+.plan .select_premium{
+    border: solid rgba(30, 180, 180, 1);
+    padding:10px 50px 10px 50px;
+    border-radius: 25px;
+    color:rgba(30, 180, 180, 1) ;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700 ;
+    font-size: 16px;
+    line-height: 18.96px;
+    background-color: rgba(30, 180, 180, 1);
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 10px 20px rgba(56, 245, 222, 0.35); 
+}
+.plan .logo_plan{
+    width: 144.9px;
+    height: 165.37px;
+}
+
+.free_plan .standard_plan .premium_plan{
+    background: rgba(255, 255, 255, 1);
+    width: 330px;
+    height: 760px;
+    border: solid 2px rgba(221, 221, 221, 1);
+
+}
+.page_map_sponsors{
+    display: block;
+}
+.page_map_sponsors h1{
+    margin-bottom: 15px;
+    width: 300px;
+    height: 105px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500 ;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+}
+.page_map_sponsors p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400 ;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(79, 86, 101, 1) ;
+    margin-bottom: 155.81px;
+}
+.page_map_sponsors .map{
+    width: 1060px;
+    height: 537.77px;
+    margin-bottom: 35.81px;
+}
+.page_map_sponsors .sponsors{
+    width: 1060px;
+    height: 208.32px;
+
+}
+.subscribe{
+    background-color: white;
+    display: inline-block;
+    width: 900px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+.subscribe p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400 ;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(79, 86, 101, 1) ;
+    position: absolute;
+    left: -60px;
+    top: 200px;
+}
+.subscribe a{
+    display: inline-block;
+    text-align: center;
+    background: rgba(30, 180, 180, 1);
+    padding: 17.5px 65px;
+    border : solid rgba(30, 180, 180, 1);
+    border-radius: 15px;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0px 10px 20px rgba(56, 245, 222, 0.35); 
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+footer{
+    padding-top: 63.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+footer .logo_footer{
+    width: 149px;
+    height: 36.23px;
+    margin-bottom: 20px;
+}
+footer b{
+    font-weight: bold;
+}
+footer h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(79, 86, 101, 1);
+    margin-bottom: 30px;
+    width: 340px;
+}
+footer .reseau_sociaux{
+    display: flex;
+    gap: 10px;
+}
+footer p{
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(175, 181, 192, 1);
+}
+footer .footer_left{
+    width: 30%;
+}
+
+footer ul li{
+    list-style-type: none;
+    padding-top: 20px;
+    line-height: 30px;
+}
+footer h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+footer li{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(79, 86, 101, 1);
+}
+.product li a{
+    text-decoration: none;
+    color: rgba(79, 86, 101, 1);
+
+}
+.engage li a{
+    text-decoration: none;
+    color: rgba(79, 86, 101, 1);
+
+}
+.earn_money li a{
+    text-decoration: none;
+    color: rgba(79, 86, 101, 1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+/* Pour la liste page suivante */
+::before
+
+li::before
+
+li::before{
+    content: "-";
+}
+
+/* choose your plan  */
+
+font-awesome
+<i class="fa-user">
+ */
